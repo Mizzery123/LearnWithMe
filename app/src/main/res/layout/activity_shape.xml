@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="sg.edu.rp.c346.learnwithme.ShapeActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="centerInside"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/teddy" />
+
+    <ImageView
+        android:id="@+id/mask"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="centerInside"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/teddy" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#00FFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/sq"
+            android:layout_width="0dp"
+            android:layout_height="128dp"
+            android:layout_weight="1"
+            android:background="@drawable/squ"
+            android:text="Square" />
+
+        <ImageButton
+            android:id="@+id/rec"
+            android:layout_width="5dp"
+            android:layout_height="113dp"
+            android:layout_weight="1"
+            android:background="@drawable/rec"
+            android:text="Rectangle" />
+
+        <ImageButton
+            android:id="@+id/cir"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/cir"
+            android:text="Circle" />
+
+        <ImageButton
+            android:id="@+id/tri"
+            android:layout_width="0dp"
+            android:layout_height="107dp"
+            android:layout_weight="1"
+            android:background="@drawable/tri"
+            android:rotation="360"
+            android:text="Triangle" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/sta"
+            android:layout_width="0dp"
+            android:layout_height="152dp"
+            android:layout_weight="1"
+            android:background="@drawable/star"
+            android:text="Star" />
+
+        <ImageButton
+            android:id="@+id/hea"
+            android:layout_width="0dp"
+            android:layout_height="125dp"
+            android:layout_weight="1"
+            android:background="@drawable/heart"
+            android:text="Heart" />
+
+        <ImageButton
+            android:id="@+id/dia"
+            android:layout_width="0dp"
+            android:layout_height="177dp"
+            android:layout_weight="1"
+            android:background="@drawable/dia"
+            android:text="Diamond" />
+    </LinearLayout>
+
+
+</RelativeLayout>
