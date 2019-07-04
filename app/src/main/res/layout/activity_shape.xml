@@ -10,7 +10,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="300dp"
         android:scaleType="centerInside"
         android:layout_centerHorizontal="true"
@@ -19,7 +19,7 @@
 
     <ImageView
         android:id="@+id/mask"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="300dp"
         android:scaleType="centerInside"
         android:layout_centerHorizontal="true"
@@ -32,6 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/imageView"
         android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
         android:text="TextView"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#00FFFF" />
