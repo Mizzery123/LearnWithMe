@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2196F3"
     tools:context="sg.edu.rp.c346.learnwithme.GridItemActivity">
 
     <TextView
@@ -12,8 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="105dp"
+        android:fontFamily="casual"
         android:text="Apple"
-        android:textColor="#000"
+        android:textColor="#ffffff"
         android:textSize="30dp" />
 
     <ImageView

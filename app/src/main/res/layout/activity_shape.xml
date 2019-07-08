@@ -33,7 +33,7 @@
         android:layout_below="@id/imageView"
         android:layout_centerHorizontal="true"
         android:fontFamily="cursive"
-        android:text="TextView"
+        android:text="Tap On One"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#00FFFF" />
 
