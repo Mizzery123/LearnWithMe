@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class GridItemActivity extends AppCompatActivity {
 
-    TextView gridData;
+    TextView gridData, tvDes;
     ImageView imageView;
 
     @Override
@@ -19,12 +19,15 @@ public class GridItemActivity extends AppCompatActivity {
 
         gridData = findViewById(R.id.griddata);
         imageView = findViewById(R.id.imageView);
+        tvDes = findViewById(R.id.tvDescription);
         Intent intent = getIntent();
         String receivedName =  intent.getStringExtra("name");
         int receivedImage = intent.getIntExtra("image",0);
+        String receivedDescription = intent.getStringExtra("description");
 
         gridData.setText(receivedName);
         imageView.setImageResource(receivedImage);
+        tvDes.setText(receivedDescription);
         //enable back Button
 
     }
